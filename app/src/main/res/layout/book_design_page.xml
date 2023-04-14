@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="10dp"
+    app:cardMaxElevation="10dp">
+
+    <LinearLayout
+        android:id="@+id/Back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/img1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/BookName"
+                android:layout_marginTop="100dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Modern Spaces"
+                android:textStyle="bold"
+                android:textSize="40dp"
+                android:textColor="#2683CA"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/Slogans"
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="There is nothing better than to read."
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#2683CA"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/Author"
+                android:layout_marginTop="300dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Author :"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/AuthorNAme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bimal Jalal"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textColor="#2683CA"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/BookDes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="A books slogans is a phrase that is associated with a product or company. Slogans are often used in advertising and marketing to create an emotional connection with the consumer."
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:padding="20dp"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
